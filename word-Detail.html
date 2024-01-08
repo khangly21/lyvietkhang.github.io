@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Định nghĩa từ</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="./src/js/wordDef.js"></script>  <!--tuy ở vị trí này nhưng js sẽ có DOMContentLoaded , waiting for the HTML content to be fully loaded-->
+    
+    <!--Font chữ-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href='https://fonts.googleapis.com/css?family=Bangers' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Permanent Marker' rel='stylesheet'>
+
+    <style>
+        body{ 
+            background-image:url('./src/assets/langscape.PNG');
+            background-repeat: no-repeat; 
+            background-size: cover;
+        }
+
+        .card{
+            background: white;
+            /* border:1px solid;   */
+            width:350px;
+            height:600px; /*= ✍️ header 100 + Body 400 + footer 100*/
+            position:absolute;
+            left:30%;
+            top:10%;
+            overflow:hidden;
+            border-radius: 10px;
+        }
+
+        .logo{
+            background-color: white;
+            height: 100px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+.info img{
+    /* border-radius: 50%;
+    width:170px; */
+    clip-path: circle();
+    width:50%;
+    position:relative; /*⚠️*/
+    left: 50%;
+    transform: translate(-50%);
+}
+.info h1{
+    text-align: center;
+    /* font-family: 'Shadows Into Light', cursive; */
+    font-family: 'Bangers';
+    font-size: 35px;
+    margin-top: 16px;
+    color: white;
+}
+.info h3{
+    text-align: center;
+    font-family: 'Permanent Marker';
+    font-size: 2;
+    margin-top: 8px;
+    color: wheat;
+}
+
+.circle1{
+    width:550px;
+    height:550px;
+    background-color: red;
+    border-radius:50%;
+    
+}
+
+.circle2{
+    width:500px;
+    height:500px;
+    background-color: white;
+    position: relative;
+    top:-200px; /*là top margin của .circel2 so với bottom của .circle1, thử top:0*/
+    left:25px;
+    border-radius:50%;
+}
+
+.bg{
+    position: relative; /*thì div.info sẽ có position absolute với anh này*/
+    top:20px;
+    left:-100px
+}
+
+.info{
+    height:400px;
+    /* background-color: red;
+    color:white; */
+    position: absolute;
+    top:140px; /*là margin-top so với container chứa nó*/
+    width:100% /*take full width of its parent element .container, do mở rộng width cho vừa width cha nên nội dung bên trong cũng ra giữa luôn*/
+}
+
+.footer{
+    height:100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: absolute;
+    top: 500px;
+    left: 100px;
+    font-family: 'Bangers';
+    color: red;
+    font-size: 20px;
+}
+    </style>
+</head>
+<body>
+    <h3 style="color:antiquewhite">What is  <span class="dynamicHeader" >....</span></h3>
+    <div class="card">
+        <div class="logo">
+            <span class="dynamicHeader" >....</span>
+        </div>
+        <a href="http://localhost:5173/words">👈 BACK</a>
+
+        <div class="bg">
+            <div class="circle1 snow-effect"></div>
+            <div class="circle2"></div>
+        </div>
+        
+        <div class="info">
+            <img src="" alt="">
+            <p id="define" class="container" style="color:white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit temporibus perspiciatis nostrum culpa nihil voluptatum laboriosam modi harum dolorem, sed dolor, reiciendis vel numquam voluptatem accusantium minima nisi nesciunt neque.</p>
+        </div>
+
+        <div class="footer">
+            <p>Updated: 8 Jan 2024</p>
+        </div>
+    </div>
+ 
+    
+ 
+    <!-- JAVASCRIPT -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+</html>

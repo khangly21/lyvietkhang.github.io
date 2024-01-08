@@ -1,0 +1,31 @@
+{
+    "header":{
+        "message":"Welcome to Web3 dictionary"
+    },
+    "author":{
+        "content":"By: Vietnam Bee Network admin "    
+    },
+    "home":{
+        "body":"Idea: Web3, with the spirit is 'the human identity at its core', is a fairly new field in the blockchain industry. Not only that, web3 also has integration with AI, metaverse, quantum computers. Therefore, accurately defining web3-related keywords is very necessary"
+    },
+    "button":{
+        "login":"LOG IN",
+        "signup":"SIGN UP",
+        "logout":"LOG OUT",
+        "close":"CLOSE"
+    },
+    "service":{
+        "agree":"I agree with the service policies"
+    },
+    "mail":{
+        "label":"Your email:"
+    },
+    
+    "next_button":{
+        "btnContent":"Next page"
+    },
+    "back_button":{
+        "btnContent":"Back page"
+    }
+    
+}

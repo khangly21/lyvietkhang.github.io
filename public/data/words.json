@@ -1,0 +1,44 @@
+{
+    "words":[
+        {
+            "id":"NFT",
+            "define":"An NFT (Non-Fungible Token) is a unique digital asset on the blockchain. For instance, CryptoPunks NFTs have reached millions of dollars in sales, with the most expensive selling for over $7.5 million (source: Larva Labs)."
+        },
+        {
+            "id":"Ordinal",
+            "define":"Ordinals are a method of inscribing data into individual satoshis on the Bitcoin network, while inscriptions are the actual data that is inscribed onto these satoshis"
+        },
+        {
+            "id":"Meme",
+            "define":"In Web3, Meme refers to digital content, often humorous or satirical, usually shared and replicated rapidly. It is difficult to quantify or provide scientific evidence regarding memes in Web3 as they are subjective and vary in popularity and engagement."
+        },
+        {
+            "id":"Blockchain",
+            "define":"Blockchain is a decentralized and immutable database shared across multiple nodes. For example, the Bitcoin blockchain has a size of over 340 GB (source: Blockchain.com), storing transaction data for millions of addresses."
+        },
+        {
+            "id":"Testnet",
+            "define":"A testnet is a separate blockchain network used for testing and experimentation. For example, Ethereum's Ropsten testnet has over 9 million test transactions (source: Etherscan)."
+        },
+        {
+            "id":"Mainnet",
+            "define":"Mainnet refers to the fully operational, live version of a blockchain network. For instance, Ethereum Mainnet processes over 1 million transactions daily (source: Etherscan), powering various decentralized applications and cryptocurrencies."
+        },
+        {
+            "id":"Web3",
+            "define":"Web3 refers to the decentralized web enabled by blockchain. Web3 refers to the vision of a decentralized web where users have control of their data and assets. Web3 refers to the next generation of the internet leveraging blockchain technology"
+        },
+        {
+            "id":"Gas",
+            "define":"Gas is a unit of measure for transaction fees on blockchains. For example, Ethereum gas prices have reached heights of over 500 gwei. (source: Etherscan)"
+        },
+        {
+            "id":"Wallet",
+            "define": "A wallet is a digital tool to securely store and manage cryptocurrency assets. There are over 75 million active blockchain wallets worldwide. (source: Statista) . As of June 2021, there are over 83 million blockchain wallet users worldwide. (source: Statista)"
+        },
+        {
+            "id":"dApps",
+            "define":"Web3 refers to the decentralized web enabled by blockchain. dApps are decentralized applications. As of July 2021, there are over 3,500 live Ethereum-based dApps. (source: DappRadar)"
+        }
+    ]
+}

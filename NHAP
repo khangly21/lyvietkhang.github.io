@@ -1,0 +1,23 @@
+/*Homepage*/
+#homepage{
+    background-image: url(https://media.giphy.com/media/3ROGCp62zakRW/giphy.gif);
+    background-repeat: no-repeat; 
+    background-size: 1200px 550px; /*các giá trị có thể của background-size được click từ Browser devtool*/ /* cover KHÁC 100% */ /*các giá trị khác như fixed*/
+}
+
+/*Words*/
+#words{
+    background-image: url('./assets/glassOfEarth.jpg');
+    background-repeat: no-repeat; 
+    background-size: 1300px 550px; /*toàn bộ hình đã bao quanh nội dung. Lý do đây là style riêng cho #word , chứ không phải body*/ /*cover thì không*/
+    background-position: center;   
+    /*this only cover the words, depends on word length*/
+    
+    /*solution*/
+    height: 100vh;
+}
+
+/*
+    👉Problem: cách dùng background-image trên chỉ giới hạn cho div, không phải toàn body nên hình ảnh cũng không toàn màn hình
+    ✔️Solution: tạo Route_BgImageComponent 
+*/

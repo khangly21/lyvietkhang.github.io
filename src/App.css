@@ -1,0 +1,60 @@
+/*NextButton.jsx*/
+.nextLink,.backLink{
+    color:red; 
+
+    /*hình vuông xanh lá*/
+    padding: 8px 16px; 
+    background-color: #04AA6D;
+    color: greenyellow; /*ghi đè color red*/
+}/*mặc định link a màu xanh và hover sẽ thành (xanh) tím*/
+
+.round {
+    border-radius: 50%;
+}
+.nextLink:hover, .backLink:hover{
+    background-color:greenyellow;
+    color: #04AA6D;
+} 
+
+/*Header.tsx*/
+#author {
+    color: peru;  /* Set the default color of the text đồng thời xóa style={{color:"white"}} trong JSX*/
+}
+#author:hover{
+    color:#04AA6D;
+}
+
+
+/*
+    👉Problem: cách dùng background-image trên chỉ giới hạn cho div, không phải toàn body nên hình ảnh cũng không toàn màn hình
+    ✔️Solution: tạo Route_BgImageComponent 
+*/
+
+.button-container {
+    display: flex;
+    overflow: hidden;
+    height: 275px; /* Adjust the height as needed */
+  }
+  
+  .moving-button {
+    margin-right: 30px; /* Adjust the margin as needed */
+    animation: moveRightToLeft 25s linear infinite; /* Adjust the animation duration */
+    
+    height:10%;
+    width:20%
+  }
+
+  .moving-button:hover{
+    background-color: bisque;
+    color: blue;
+  }
+  
+  @keyframes moveRightToLeft {
+    0% {
+      transform: translateX(-50%);
+    }
+    100% {
+      transform: translateX(500%);
+    }
+  }
+  

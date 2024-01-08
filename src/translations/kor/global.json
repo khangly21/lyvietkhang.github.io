@@ -1,0 +1,29 @@
+{
+    "header":{
+        "message":"Web3 사전에 오신 것을 환영합니다"
+    },
+    "home":{
+        "body":"아이디어: '인간의 정체성'을 핵심으로 하는 정신을 지닌 Web3는 블록체인 업계에서 상당히 새로운 분야입니다. 뿐만 아니라 web3에는 AI, 메타버스, 양자 컴퓨터와의 통합도 있습니다. 따라서 web3 관련 키워드를 정확하게 정의하는 것이 매우 필요합니다."
+    },
+    "author":{
+        "content": "작성자 :  베트남 Bee Network 관리자"
+    },
+    "button":{
+        "login":"로그인",
+        "signup":"가입하기",
+        "logout":"로그 아웃",
+        "close":"닫다"
+    },
+    "service":{
+        "agree":"서비스 정책에 동의합니다."
+    },
+    "mail":{
+        "label":"귀하의 이메일:"
+    },
+    "next_button":{
+        "btnContent":"다음 페이지"
+    },
+    "back_button":{
+        "btnContent":"돌아가다"
+    }
+}

@@ -1,0 +1,29 @@
+{
+    "header":{
+        "message":"Chào mừng đến với từ điển Web3"
+    },
+    "author":{
+        "content":"Tác giả: Quản trị viên cộng đồng Bee Network Vietnam"    
+    },
+    "home":{
+        "body":"Ý tưởng: Web3, với tinh thần chủ đạo 'bản sắc con người là trung tâm', là một lĩnh vực khá mới trong ngành công nghiệp blockchain. Không chỉ vậy, web3 còn tích hợp với AI, metaverse, máy tính lượng tử. Vì vậy, việc xác định chính xác các từ khóa liên quan đến web3 là rất cần thiết"
+    },
+    "button":{
+        "login":"LOG IN",
+        "signup":"SIGN UP",
+        "logout":"LOG OUT",
+        "close":"CLOSE"
+    },
+    "service":{
+        "agree":"I agree with the service policies"
+    },
+    "mail":{
+        "label":"Your email:"
+    },
+    "next_button":{
+        "btnContent":"Trang kế tiếp"
+    },
+    "back_button":{
+        "btnContent":"Trang trước"
+    }
+}
